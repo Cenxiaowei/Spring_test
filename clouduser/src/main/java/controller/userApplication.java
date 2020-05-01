@@ -28,7 +28,7 @@ public class userApplication {
 
     }
 
-    @LoadBalanced  //ribbon
+    @LoadBalanced  //ribbonsssss
     @Bean
     public RestTemplate restTemplate(){
         return  new RestTemplate();
